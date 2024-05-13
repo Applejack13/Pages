@@ -1,0 +1,65 @@
+.topHeader div {
+    display: flex;
+    align-items: center;
+}
+
+.buttons div {
+    gap: 40px;
+    display: flex;
+}
+
+
+.icons {
+    gap: 10px;
+        
+    & h3 {
+        padding-right: 30px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    & img:not(:first-child) {
+        background-color: #fff;
+        width: 45px;
+        height: 45px;
+    }
+}
+
+.menu h4 {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 125%;
+    letter-spacing: -1%;
+    text-align: left;
+}
+
+.shoppingCart {
+    
+    & h3 {
+        background-color: rgb(255, 202, 66);
+        color: rgb(27, 55, 100);
+        font-family: Cardo;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 125%;
+        letter-spacing: 2%;
+        text-align: center;
+        padding: 13px 33px; 
+    }
+ 
+    & img {
+     padding-left: 26px;   
+    }
+}
+
+.topHeader {
+    display: flex;
+    margin: 40px auto;
+    max-width: 1300px;
+    gap: 250px;
+    height: 50px;
+    border: 1px dashed lightgray;      
+}
