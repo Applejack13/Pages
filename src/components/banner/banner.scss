@@ -1,0 +1,113 @@
+.banner {
+    background-color: #1B3764;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1301px;
+    height: 800px;
+    margin: 95px auto 0;
+    gap: 95px;
+
+    & .content > p:first-child {
+        color: rgb(255, 255, 255);
+        font-family: Cardo;
+        font-style: italic;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 154.5%;
+        letter-spacing: -2%;
+        text-align: left;
+    }
+
+    & .content > p:nth-of-type(2) {
+        color: rgb(180, 199, 231);
+        font-family: Inter;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 180%;
+        letter-spacing: -1%;
+        text-align: left;
+    }
+
+    & h2 {
+        color: rgb(255, 255, 255);
+        font-family: Cardo;
+        font-size: 65px;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: -2%;
+        text-align: left;
+    }
+
+}
+
+.banner .buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 37px;
+    margin: 0;
+    align-items: center;
+
+    & h3:first-child {
+        background-color: rgb(255, 202, 66);
+        color: rgb(27, 55, 100);
+        font-family: Cardo;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 125%;
+        letter-spacing: 2%;
+        text-align: center;
+        padding: 13px 33px;  
+    }
+
+    & h3:nth-child(2) {
+        color: rgb(255, 255, 255);
+        font-family: Cardo;
+        font-size: 19px;
+        font-weight: 700;
+        line-height: 125%;
+        letter-spacing: 2%;
+        text-align: center;
+    }
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+
+    & li {
+        list-style: none;
+        position: relative;
+        color: rgb(255, 255, 255);
+        font-family: Cardo;
+        font-size: 19px;
+        font-weight: 400;
+        line-height: 125%;
+        letter-spacing: -1%;
+        text-align: left;
+        padding: 0;
+
+        & ::before {
+            content: ""; 
+            position: absolute; 
+            top: 7%;
+            right: 115%;
+            width: 15px;
+            height: 15px; 
+            background: rgb(255, 202, 66);            
+            border-radius: 50%; 
+          }
+        
+        & span {
+            color: rgb(180, 199, 231);
+            font-family: Inter;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 170%;
+            
+        }
+    } 
+
+}

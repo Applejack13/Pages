@@ -31,6 +31,7 @@ export default function Header() {
           <img src={shoppingCart} alt='shoppingCart' />
           {/* <img src={itemCounter} alt='itemCounter' /> */}
           <h3>Order Today</h3>
+          {/* make it as button later */}
         </div>
       </div>
     </div>

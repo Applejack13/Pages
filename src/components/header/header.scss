@@ -1,13 +1,13 @@
 .topHeader div {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .buttons div {
-    gap: 40px;
+    justify-content: space-between;
     display: flex;
 }
-
 
 .icons {
     gap: 10px;
@@ -59,7 +59,5 @@
     display: flex;
     margin: 40px auto;
     max-width: 1300px;
-    gap: 250px;
     height: 50px;
-    border: 1px dashed lightgray;      
 }
