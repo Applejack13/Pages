@@ -1,0 +1,82 @@
+.about {
+  background: rgb(244, 248, 255);
+  padding: 150px 300px;
+}
+
+.aboutAuthor {
+  & > h3 {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: -2%;
+    text-align: left;
+  }
+
+  & > p:nth-child(2) {
+    border: 3px solid rgb(255, 202, 66);
+    width: 55px;
+  }
+
+  & p:nth-child(3) {
+    color: rgb(150, 154, 160);
+    font-family: Inter;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 180%;
+    letter-spacing: -1%;
+    text-align: left;
+  }
+
+  & ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+
+    & > p {
+      height: 88px;
+      border: 1px solid rgb(255, 202, 66);
+    }
+
+    & > li {
+      list-style: none;
+
+      & > p {
+        margin: 0;
+        color: rgb(27, 55, 100);
+        font-family: Cardo;
+        font-size: 55px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: -2%;
+        text-align: left;
+
+        & > span {
+          color: rgb(150, 154, 160);
+          font-family: Inter;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 170%;
+          letter-spacing: -1%;
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+.containerAboutAuthor {
+  display: flex;
+  justify-content: center;
+  gap: 142px;
+  flex-direction: row;
+
+  max-width: 1300px;
+}
+
+.contacts {
+  background: rgb(27, 55, 100);
+  padding: 15px;
+}
