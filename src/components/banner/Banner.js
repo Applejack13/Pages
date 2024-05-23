@@ -22,16 +22,22 @@ export default function Banner() {
 
         <ul className='details'>
           <li>
-            Pages: <br />
-            <span>586 pages</span>
+            <p>
+              Pages: <br />
+              <span>586 pages</span>
+            </p>
           </li>
           <li>
-            Length: <br />
-            <span>10 Hours</span>
+            <p>
+              Length: <br />
+              <span>10 Hours</span>
+            </p>
           </li>
           <li>
-            Ratings: <br />
-            <span>4.5/5 (305 ratings)</span>
+            <p>
+              Ratings: <br />
+              <span>4.5/5 (305 ratings)</span>
+            </p>
           </li>
         </ul>
       </div>

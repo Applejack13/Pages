@@ -1,32 +1,18 @@
-.topHeader div {
-    display: flex;
-    align-items: center;
-    width: 100%;
+.topHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(27, 55, 100);
+  // margin: 0 -90px;
+  // It should be like this, but I need to do it differently
 }
 
-.buttons div {
-    justify-content: space-between;
-    display: flex;
-}
+.topHeader .buttons {
+  display: flex;
+  align-items: center;
+  gap: 45px;
 
-.icons {
-    gap: 10px;
-        
-    & h3 {
-        padding-right: 30px;
-        color: #fff;
-        font-weight: 700;
-        font-size: 28px;
-    }
-
-    & img:not(:first-child) {
-        background-color: #fff;
-        width: 45px;
-        height: 45px;
-    }
-}
-
-.menu h4 {
+  & h4 {
     color: rgb(255, 255, 255);
     font-family: Inter;
     font-size: 17px;
@@ -34,30 +20,36 @@
     line-height: 125%;
     letter-spacing: -1%;
     text-align: left;
+  }
+
+  & h3 {
+    background-color: rgb(255, 202, 66);
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-align: center;
+    padding: 13px 33px;
+  }
 }
 
-.shoppingCart {
-    
-    & h3 {
-        background-color: rgb(255, 202, 66);
-        color: rgb(27, 55, 100);
-        font-family: Cardo;
-        font-size: 19px;
-        font-weight: 700;
-        line-height: 125%;
-        letter-spacing: 2%;
-        text-align: center;
-        padding: 13px 33px; 
-    }
- 
-    & img {
-     padding-left: 26px;   
-    }
-}
+.topHeader .icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
-.topHeader {
-    display: flex;
-    margin: 40px auto;
-    max-width: 1300px;
-    height: 50px;
+  & h3 {
+    padding-right: 30px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+  }
+
+  & img:not(:first-child) {
+    background-color: #fff;
+    width: 45px;
+    height: 45px;
+  }
 }

@@ -1,0 +1,18 @@
+.orderButtonClass {
+  box-sizing: border-box;
+  border: 1px solid rgb(255, 202, 66);
+  border-top: 1px solid transparent;
+  width: 220px;
+  height: 65px;
+  background-color: #fff;
+
+  & > p {
+    color: rgb(27, 55, 100);
+    font-family: Cardo;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: 2%;
+    text-align: center;
+  }
+}

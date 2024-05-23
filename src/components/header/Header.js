@@ -5,7 +5,6 @@ import shoppingCart from "../../images/ShoppingCart.svg";
 import linkedIn from "../../images/LinkedIn.svg";
 import telegram from "../../images/Telegram.svg";
 import facebook from "../../images/Facebook.svg";
-// import itemCounter from "../../images/itemCounter.svg";
 
 export default function Header() {
   return (
@@ -19,20 +18,15 @@ export default function Header() {
       </div>
 
       <div className='buttons'>
-        <div className='menu'>
-          <h4>Home</h4>
-          <h4>Pages</h4>
-          <h4>About</h4>
-          <h4>Services</h4>
-          <h4>Contact</h4>
-        </div>
+        <h4>Home</h4>
+        <h4>Pages</h4>
+        <h4>About</h4>
+        <h4>Services</h4>
+        <h4>Contact</h4>
 
-        <div className='shoppingCart'>
-          <img src={shoppingCart} alt='shoppingCart' />
-          {/* <img src={itemCounter} alt='itemCounter' /> */}
-          <h3>Order Today</h3>
-          {/* make it as button later */}
-        </div>
+        <img src={shoppingCart} alt='shoppingCart' />
+        <h3>Order Today</h3>
+        {/* make it as button later */}
       </div>
     </div>
   );
